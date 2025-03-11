@@ -3,33 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page 1</title>
+    <title>Page 2</title>
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 </head>
 <body>
-
     <header>
-            <a href = "">Skip to Main Content</a>
-        <nav>
-            <ul>
-                <li><a href = "index.html">Home</a></li>
-                <li><a href = "page_1.html">Academic Support</a></li>
-                <li><a href = "page_2.html">Tutoring</a></li>
-                <li><a href = "page_3.html">Student Support</a></li>
-            </ul>
-        </nav>
-        
-    <h1>Tutoring at UMSI</h1>
-    <figure>
-        <img src="images/UMSI_Campus_Fall.jpg" alt="Image of the UMSI Campus in the Fall">
-    </figure>
+        <div class = "skip" tabindex="0"><a href = "#main">Skip to Main Content</a></div>
+        <img id = "logo" src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
+            <nav>
+                <ul>
+                    <li><a href = "index.html">Home</a></li>
+                    <li><a href = "page_1.html">Academic Support</a></li>
+                    <li><a href = "page_2.html" class="active">Tutoring</a></li>
+                    <li><a href = "page_3.html">Student Support</a></li>
+                </ul>
+            </nav>
     </header>
-    <main>
+    
+    <main id="main">
+        <h1>Tutoring at UMSI</h1>
         <div>
-            <p>UMSI is committed to supporting undergraduate students through a variety of tutoring services. Whether you need help with coursework or are looking to strengthen your study habits, we are here to assist you every step of the way.</p>
+            <p>
+                UMSI is committed to supporting undergraduate students through a variety of tutoring services. 
+                <br>
+                <br>
+                Whether you need help with coursework or are looking to strengthen your study habits, we are here to assist you every step of the way.
+            </p>
         </div>
-        <div>
-            <h2><a href="https://www.example.com/peer-tutoring">UMSI Peer Tutoring Program</a></h2>
-                <p>The UMSI Peer Tutoring program, which is run in collaboration with our UMSI faculty, gives UMSI students and students enrolled in UMSI courses the chance to engage with peer tutors and receive help and support in UMSI courses. Both programming and math tutoring are offered through this service. Use the following links too schedule a tutoring appointment with our available UMSI Peer Tutors: </p>
+        <img src="images/UMSItutoring.jpg" alt="Image of the UMSI Campus in the Fall">
+    
+    
+            <h2><a href="https://sites.google.com/umich.edu/umsitutoring/umsi-programming-tutoring?authuser=0">UMSI Peer Tutoring Program</a></h2>
+                <p>
+                    The UMSI Peer Tutoring program, which is run in collaboration with our UMSI faculty, gives UMSI students and students enrolled in UMSI courses the chance to engage with peer tutors and receive help and support in UMSI courses.
+                    <br>
+                    <br>
+                    Both programming and math tutoring are offered through this service. Use the following links too schedule a tutoring appointment with our available UMSI Peer Tutors: 
+
+                </p>
             
                 <h3>Math Peer Tutoring</h3>
                     <p>UMSI Math Peer Tutoring Information Available for the below subject areas:</p>
@@ -48,7 +61,7 @@
                         <li>SI 206 Data-Oriented Programming</li>
                         <li>SI 506 Programming I</li>
                         <li>SI 507 Intermediate Programming</li>
-                        <li>General Python support</li>
+                        <li>General Python support</li>                     
                     </ul>
                     <p>To learn more about different peer tutors and to book an appointment, please follow <a href="https://sites.google.com/umich.edu/umsitutoring/umsi-programming-tutoring?authuser=0">this link</a></p>
             
@@ -62,13 +75,11 @@
                     <li>Study strategies</li>
                     <li>Making the most of campus resources</li>
                     <li>Adjusting to university life</li>
-                    <li>And any other questions you might have!</li>
+                    <li>And any other questions you might have!</li>              
                 </ul>
                 <p>Drop-in hours take place on Thursdays from 10-11 AM via Zoom during the Winter 2025 semester.</p>
-                <p>Join the queue for a session by clicking <a href="https://officehours.it.umich.edu/queue/1642">here</a>.</p>
+                <p>Join the queue for a session by clicking <a href="https://officehours.it.umich.edu/queue/1642">here</a></p>
 
-
-        </div>
     </main>
     <footer>
         <p>BSI Academic Advising | <a href="https://sites.google.com/umich.edu/bsiacademicadvising/home">UMSI Academic Advising</a></p>

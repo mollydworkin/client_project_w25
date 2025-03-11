@@ -3,31 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page 1</title>
+    <title>Page 3</title>
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 </head>
 <body>
-
     <header>
-            <a href = "">Skip to Main Content</a>
-        <nav>
-            <ul>
-                <li><a href = "index.html">Home</a></li>
-                <li><a href = "page_1.html">Academic Support</a></li>
-                <li><a href = "page_2.html">Tutoring</a></li>
-                <li><a href = "page_3.html">Student Support</a></li>
-            </ul>
-        </nav>
-        <h1>Student Support Services at UMSI</h1>
+        <div class = "skip" tabindex="0"><a href = "#main">Skip to Main Content</a></div>
+        <img id = "logo" src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
+            <nav>
+                <ul>
+                    <li><a href = "index.html">Home</a></li>
+                    <li><a href = "page_1.html">Academic Support</a></li>
+                    <li><a href = "page_2.html">Tutoring</a></li>
+                    <li><a href = "page_3.html" class="active">Student Support</a></li>
+                </ul>
+            </nav>
     </header>
-    <main>
+    <main id="main">
+        <h1>Student Support Services at UMSI</h1>
         <section>
             <h2>About CAPS</h2>
-            <p>Counseling and Psychological Services (CAPS), part of University Health Service (UHS), supports the mental health and well-being of the campus community. CAPS offers services like individual and group counseling, crisis support, workshops, and more to help students manage challenges and improve their overall well-being.</p>
+            <p>
+                Counseling and Psychological Services (CAPS), part of University Health Service (UHS), supports the mental health and well-being of the campus community. 
+                <br>
+                <br>
+                CAPS offers services like individual and group counseling, crisis support, workshops, and more to help students manage challenges and improve their overall well-being.
+            </p>
         </section>
         <section>
             <h2>Embedded CAPS Counselor at UMSI</h2>
             <figure>
+                <br>
                 <img src="images/AshleyEvearitt.jpg" alt="A headshot of Ashley Evearitt outside by a flowering tree">
+                <br>
             </figure>
             <p>UMSI students have access to an embedded CAPS counselor, Ashley Evearitt, who provides personalized mental health support. Here’s how to get started:</p>
             <ol>
@@ -35,7 +45,31 @@
                 <li>Complete the secure demographic information form Ashley provides. This form helps tailor the session to your specific concerns and aids in creating a personalized treatment plan.</li>
                 <li>Schedule an Initial Consultation (IC) appointment, which typically lasts 30-50 minutes. This session focuses on discussing your concerns and beginning to structure your treatment plan.</li>
             </ol>
+            <br>
             <p>Services through CAPS are covered by student fees, so there’s no cost to you. Your clinical information is confidential and not shared with UMSI staff unless you provide written consent.</p>
+        </section>
+        <section id="contact">
+            <figure>
+                <img src="images/union.jpg" alt="Michigan Union Building where CAPS is located">
+                <figcaption>CAPS is located in the Michigan Union</figcaption>
+            </figure>
+            <h2>Contact CAPS</h2>
+            <p class="contact_information">
+                <strong>Phone: </strong>
+                734-764-8312 (24 hours)
+            </p>
+            <p class="contact_information">
+                <strong>Email: </strong>
+                <a href="mailto:caps-uofm@umich.edu">caps-uofm@umich.edu</a>
+            </p>
+            <p class="contact_information">
+                <strong>Address: <br></strong>
+                Michigan Union, Suite 4079
+                <br>
+                530 South State Street
+                <br>
+                Ann Arbor, MI 48109
+            </p>
         </section>
         <section>
             <h2>Additional Support through CAPS</h2>
@@ -43,7 +77,7 @@
                 <li><strong>Crisis Support:</strong> If you are experiencing an urgent need, call the CAPS front desk at <a href="tel:7347648312">734-764-8312</a> to speak with a Counselor on Duty (10 AM–6 PM, Mon-Thu; 10 AM–5 PM, Fri).</li>
                 <li><strong>After-Hours Support:</strong> CAPS provides mental health support during evenings, weekends, and holidays. Call <a href="tel:7347648312">734-764-8312</a> and press 0 to speak with a licensed mental health professional.</li>
                 <li><strong>Individual Peer Counseling (IPC):</strong> 
-                    IPC connects UM students with trained peers of similar age, background, or interests for support, active listening, and guidance on personal challenges, transitions, and campus life in a relaxed, judgment-free space. <a href="https://docs.google.com/forms/d/e/1FAIpQLSeCGSHqGOOa6Jtu_Xypz4Af-lg6-e9vPNCrVo-CJ833WPBlnQ/viewform">Meeting with an IPC</a>.</li>
+                    IPC connects UM students with trained peers of similar age, background, or interests for support, active listening, and guidance on personal challenges, transitions, and campus life in a relaxed, judgment-free space. <a href="https://docs.google.com/forms/d/e/1FAIpQLSeCGSHqGOOa6Jtu_Xypz4Af-lg6-e9vPNCrVo-CJ833WPBlnQ/viewform">Meeting with an IPC</a>.</li>                
                 <li><strong>Wolverine Support Network (WSN):</strong> Join a student-led peer support group to connect with others and discuss day-to-day stressors. Learn more at <a href="https://www.umichwsn.org/join">WSN Groups</a>.</li>
                 <li><strong>Stressbusters App:</strong> Use the Stressbusters app for relaxation tools, health tips, and campus event updates. More info here: <a href="https://caps.umich.edu/article/stressbusters-wellness-mobile-app">Stressbusters App</a>.</li>
                 <li><strong>Therapy Off-Campus:</strong> For long-term therapy or specific specializations, use the <a href="https://umcpd.umich.edu/">Community Provider Database</a> to find local providers.</li>

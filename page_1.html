@@ -4,34 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page 1</title>
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 </head>
+
 <body>
-
     <header>
-            <a href = "">Skip to Main Content</a>
-        <nav>
-            <ul>
-                <li><a href = "index.html">Home</a></li>
-                <li><a href = "page_1.html">Academic Support</a></li>
-                <li><a href = "page_2.html">Tutoring</a></li>
-                <li><a href = "page_3.html">Student Support</a></li>  
-            </ul>
-        </nav>
-        <h1>Academic Support at UMSI</h1>
-        <figure>
-            <img src="images/UMSI_signature_informal_maize-blue.png" alt="UMSI logo">
-        </figure>
-
+        <div class = "skip" tabindex="0"><a href = "#main">Skip to Main Content</a></div>
+        <img id = "logo" src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
+            <nav>
+                <ul>          
+                    <li><a href = "index.html">Home</a></li>
+                    <li><a href = "page_1.html" class="active">Academic Support</a></li>
+                    <li><a href = "page_2.html">Tutoring</a></li>
+                    <li><a href = "page_3.html">Student Support</a></li>  
+                </ul>
+            </nav>
     </header>
-    <main>
-        <div>
-            <p>At the University of Michigan School of Information (UMSI), we are committed to supporting our students' academic success by offering a wide array of resources and services. Our academic advising team provides personalized guidance to help you navigate your curriculum, select courses, and address any academic challenges or questions you may encounter during your studies. UMSI students also have access to the extensive collections and study spaces within the University Library system, offering both digital and physical resources essential for research and coursework. Additionally, our specialized tutoring services and the UMSI Writing Center are available to support you in mastering complex subjects and enhancing your written communication skills. By utilizing these academic resources, UMSI students can thrive in their studies and achieve their educational goals. </p>
 
-        </div>
-    
-
-        <div>
-            <h2>Academic Advising Overview</h2>
+    <main id="main">
+        <h1>Academic Support at UMSI</h1>
+        <section>
+            <h2>Overview</h2>
             <p>Academic advising is an essential part of your journey at UMSI. With the guidance of an academic advisor, you can create a personalized academic plan, understand program requirements, and navigate challenges that arise during your studies. Together, we can ensure you are on track to meet both your academic and career goals by:</p>
             <ul>
                 <li>Creating an individualized academic plan</li>
@@ -40,9 +35,9 @@
                 <li>Connecting with student support resources and services</li>
                 <li>Helping you navigate disruptions in your BSI experience</li>
             </ul>
-        </div>
+        </section>
 
-        <div>
+        <section>
             <h2>Types of Advising Appointments</h2>
             <p>We offer different types of advising appointments to cater to your needs:</p>
             <ul>
@@ -50,9 +45,9 @@
                 <li><a href="https://sites.google.com/umich.edu/bsiacademicadvising/academic-advising/connecting-with-an-advisor?authuser=0#h.daccan6wpf1a">Drop-In 1:1 Appointments:</a> For quick discussions that can be resolved in 10 minutes or less. Drop-ins are available during office hours without the need for a scheduled appointment.</li>
                 <li><a href="mailto:umsi.advising.bsi@umich.edu">Email:</a> If you prefer written communication, you can email the advising team instead.</li>
             </ul>
-        </div>
+        </section>
 
-        <div>
+        <section>
             <h2>How to Get the Most Out of Your Advising Appointment</h2>
             <p>Maximize your advising experience with these tips:</p>
             <ol>
@@ -61,9 +56,45 @@
                 <li><strong>Prepare for Your Appointment:</strong> Review your degree audit, list your questions, and ensure you're on time for the meeting.</li>
                 <li><strong>Follow Through:</strong> Complete any tasks your advisor suggests after the meeting.</li>
             </ol>
-        </div>
-
-        <div>
+        </section>
+        
+        <section id="academic-support">
+            <h2>Meet the Academic Success Team</h2>
+                <div class="articles-container">
+                    <article>
+                        <h3>Shannon Gass (She/Her/Hers)</h3>
+                        <figure>
+                            <img src="images/Shannon.jpg" alt="Shannon Gass Headshot">
+                            <figcaption>Assistant Director of Academic Success</figcaption>
+                        </figure>
+                        <br>
+                        <p> Support Focus Areas:</p>
+                            <ul>
+                                <li>Tutoring</li>
+                                <li>Academic Standing</li>
+                                <li>Academic Success Skills</li>
+                                <li>Student Concerns</li>
+                                <li>Academic Accommodations</li>
+                                <li>Working with SSD</li>
+                            </ul>
+                    </article>
+                    <article>
+                        <h3>KC Pepera (She/Her/Hers)</h3>
+                        <figure>
+                            <img src="images/KC.jpg" alt="KC Pepera Headshot">
+                            <figcaption>Student Support Manager</figcaption>
+                        </figure>
+                        <br>
+                        <p> Support Focus Areas:</p>
+                            <ul>
+                                <li>Student Well-Being</li>
+                                <li>Emergency Funding Options</li>
+                                <li>Response to Care Report</li>
+                                <li>Connections to UM & Community Resources</li>
+                            </ul>
+                    </article>
+                </div>
+        </section>
             <h2>Additional Resources</h2>
             <p>Here are some important links for BSI students:</p>
             <ul>
@@ -73,7 +104,6 @@
                 <li><a href="https://sites.google.com/umich.edu/bsiacademicadvising/bsi-degree-requirements?authuser=0">Degree Requirements</a></li>
                 <li><a href="https://sites.google.com/umich.edu/bsiacademicadvising/student-support-resources?authuser=0">Student Support Resources</a></li>
             </ul>
-        </div>
 
     </main>
 
